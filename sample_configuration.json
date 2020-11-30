@@ -1,0 +1,19 @@
+{
+  "geometry": {
+    "path": "path/to/dataset.shp",
+    "input_format": "shapefile",
+    "feature_id_field": "FLComID"
+  },
+  "input": {
+    "address": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/nwm/prod/",
+    "model_configuration": "short_range",
+    "model": "channel_rt",
+    "constraints": {
+      "absolute_minimum_issuance": null,
+      "absolute_maximum_issuance": null,
+      "relative_minimum_issuance": "PT24H",
+      "relative_maximum_issuance": null
+    }
+  },
+  "output_path": "nwm.gpkg"
+}

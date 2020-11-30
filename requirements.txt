@@ -1,0 +1,1 @@
+git+https://github.com/christophertubbs/NOMADSExplorer.git@master#egg=NOMADSExplorer
